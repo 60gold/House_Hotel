@@ -1,4 +1,8 @@
 $(document).ready(function () {
+  //回首頁
+  $(".other-room").click(function () {
+    window.location.href = "index.html"
+  });
 
   //訂房頁面送出按鈕
   $("#form-button").click(function () {
